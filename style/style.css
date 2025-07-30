@@ -13,3 +13,15 @@
     --grey800: hsl(0, 0%, 12%);
     --grey900: hsl(0, 0%, 8%);
 }
+
+body {
+    background-color: var(--grey900);
+}
+
+main {
+    background-color: var(--grey800);
+}
+
+a {
+    background-color: var(--grey700);
+}
