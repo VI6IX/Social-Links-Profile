@@ -39,16 +39,22 @@ header {
 header h1 {
     font-size: 1.6em;
     font-weight: 600;
+    margin: 0px auto 10px auto
 }
 
 header h2 {
     color: var(--green);
     font-weight: 600;
     font-size: 1em;
+    margin: 0px auto 25px auto;
 }
 
 header p {
-    font-weight: 400;}
+    font-weight: 200;
+    /* font-weight disrespects the style guide in order to look more accurate to the design references, though, admittedly, it might only look different with the provided font-weight value on my end */
+    font-size: 14px;
+    margin: 0px auto 25px auto;
+}
 
 header img {
     display: block;
