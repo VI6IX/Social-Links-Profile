@@ -27,6 +27,7 @@ main {
     margin: 120px auto;
     width: 87vw;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 header {
