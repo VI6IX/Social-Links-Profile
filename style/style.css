@@ -20,6 +20,9 @@ body {
 
 main {
     background-color: var(--grey800);
+    margin: 120px auto;
+    width: 520px;
+    border-radius: 20px;
 }
 
 a {
