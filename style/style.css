@@ -65,6 +65,19 @@ header img {
     border-radius: 50%;
 }
 
+nav {
+    margin-bottom: 25px;
+}
+
 a {
     background-color: var(--grey700);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font: 700 0.9em "Inter";
+    display: block;
+    width: 85%;
+    margin: 0px auto 16px auto;
+    padding: 15px 0px 15px 0px;
+    border-radius: 8px;
 }
