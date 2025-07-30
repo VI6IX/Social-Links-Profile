@@ -81,3 +81,8 @@ a {
     padding: 15px 0px 15px 0px;
     border-radius: 8px;
 }
+
+a:hover {
+    background-color: var(--green);
+    color: var(--grey700);
+}
