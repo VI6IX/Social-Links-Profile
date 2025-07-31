@@ -82,19 +82,33 @@ a {
     border-radius: 8px;
 }
 
-a:hover {
+a:active {
     background-color: var(--green);
     color: var(--grey700);
 }
 
+/* Desktop transition */
 @media (min-width: 400px) {
     main {
         width: 330px;
         padding: 15px;
         transition-duration: 0.2s;
     }
+
+    a:hover {
+        background-color: var(--green);
+        color: var(--grey700);
+        transition-duration: 0.1s;
+    }
+
+    a:active {
+        background-color: white;
+        color: var(--green);
+        transition-duration: 0.1s;
+    }
 }
 
+/* Transition from Desktop to Mobile */
 @media (max-width: 399px) {
     main {
         width: 87vw;
