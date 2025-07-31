@@ -88,7 +88,7 @@ a:active {
 }
 
 /* Desktop transition */
-@media (min-width: 400px) {
+@media (min-width: 450px) {
     main {
         width: 330px;
         padding: 15px;
@@ -109,7 +109,7 @@ a:active {
 }
 
 /* Transition from Desktop to Mobile */
-@media (max-width: 399px) {
+@media (max-width: 449px) {
     main {
         width: 87vw;
         padding: 0px;
